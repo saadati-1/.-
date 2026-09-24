@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آکادمی و مرکز مشاوره تبسم</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+============================================================ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-row">
+    <a class="brand" href="#hero">
+      <svg class="brand-mark" viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="21" stroke="currentColor" stroke-width="1.6" style="color:var(--teal-deep)"/>
+        <path d="M14 27c3.2 5 8.6 8 10 8s6.8-3 10-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" style="color:var(--gold)"/>
+        <circle cx="18" cy="20" r="1.6" fill="var(--teal-deep)"/>
+        <circle cx="30" cy="20" r="1.6" fill="var(--teal-deep)"/>
+      </svg>
+      <span class="brand-text">
+        <strong>تبسم</strong>
+        <span>آکادمی و مرکز مشاوره</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#hero" class="active">خانه</a>
+      <a href="#about">درباره ما</a>
+      <a href="#approach">حوزه‌های مشاوره</a>
+      <a href="#content">مطالب و پادکست</a>
+      <a href="#credentials">رزومه علمی</a>
+      <a href="#contact">تماس با ما</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="باز کردن منو" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- mobile drawer -->
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-top">
+    <span class="brand-text"><strong style="font-family:var(--font-display); font-size:1.3rem;">تبسم</strong></span>
+    <button class="nav-toggle" id="navClose" aria-label="بستن منو">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav>
+    <a href="#hero">خانه</a>
+    <a href="#about">درباره ما</a>
+    <a href="#approach">حوزه‌های مشاوره</a>
+    <a href="#content">مطالب و پادکست</a>
+    <a href="#credentials">رزومه علمی</a>
+    <a href="#contact">تماس با ما</a>
+  </nav>
+</div>
+
+<main>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="wrap">
+      <div class="hero-copy" data-reveal>
+        <span class="eyebrow-label">
+          <svg viewBox="0 0 22 14" fill="none"><path d="M1 7c3.5 5.5 9 5.5 10 5.5s6.5 0 10-5.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          آکادمی و مرکز مشاوره تبسم
+        </span>
+        <h1>جایی برای شنیده‌شدن، فهمیده‌شدن و آرام‌گرفتن</h1>
+        <p>در کنار شما هستیم؛ در مشاوره‌ی فردی و خانواده، در کلاس‌های آموزشی، و در گفت‌وگوهای صمیمانه‌ی پادکست هفتگی‌مان درباره‌ی ذهن، رابطه و آرامش.</p>
+        <div class="hero-actions">
+          <a href="#content" class="btn btn-primary">
+            شنیدن پادکست
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          </a>
+          <a href="#about" class="btn btn-ghost">آشنایی با <span class="fillme">محسن سعادتی</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="hero-blob"></div>
+        <svg class="hero-arc" viewBox="0 0 200 200" fill="none">
+          <path d="M40 110c14 34 40 52 60 52s46-18 60-52" stroke="var(--gold)" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="72" cy="82" r="4.5" fill="var(--paper-soft)"/>
+          <circle cx="128" cy="82" r="4.5" fill="var(--paper-soft)"/>
+          <circle cx="30" cy="50" r="5" fill="var(--gold-soft)" opacity=".8"/>
+          <circle cx="168" cy="150" r="7" fill="var(--gold-soft)" opacity=".5"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about-photo">
+        <div class="photo-frame">
+          <img src="mohsen saadati.jpg" alt="عکس پروفایل" style="width: 100%; height: 100%; object-fit: cover; border-radius: 100%;">
+        </div>
+        <p class="photo-caption"></p>
+      </div>
+
+      <div class="about-body" data-reveal>
+        <span class="eyebrow-label">
+          <svg viewBox="0 0 22 14" fill="none"><path d="M1 7c3.5 5.5 9 5.5 10 5.5s6.5 0 10-5.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          درباره‌ی ما
+        </span>
+        <h2>درباره‌ی <span class="fillme">محسن سعادتی</span></h2>
+        <p style="margin-top:22px;">     <span class="fillme">[محسن سعادتی]</span>   <span class="fillme"> </span>  تحصیلات ایشان در مقطع کارشناسی ارشد روان‌شناسی بالینی <span class="fillme"></span> می باشد.</p>
+        <p>رویکرد درمانی ایشان ترکیبی از روان‌درمانی شناختی-رفتاری و رویکردی انسان‌گراست؛ نگاهی که در آن مراجع نه یک «بیمار»، بلکه انسانی در مسیر رشد دیده می‌شود. مشاوره‌های فردی، زوج و خانواده با تمرکز بر آرامش و خودشناسی انجام می‌شود.</p>
+        <div class="about-quote">«تبسم، نخستین قدم برای آشتی با خودمان است.»</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       APPROACH / SERVICES
+  ============================================================ -->
+  <section class="approach" id="approach">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <svg class="arc-divider" viewBox="0 0 64 20" fill="none"><path d="M2 3c8 14 22 15 30 15s22-1 30-15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h2>حوزه‌های مشاوره</h2>
+        <p>مسیرهایی که می‌توانیم با هم طی کنیم؛ متناسب با موقعیت و نیاز هر مراجع.</p>
+      </div>
+
+      <div class="approach-grid" id="approachGrid">
+        <div class="approach-item">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="24" cy="16" r="8"/><path d="M9 40c2-10 8-15 15-15s13 5 15 15"/></svg>
+          <h3>مشاوره‌ی فردی</h3>
+          <p>گفت‌وگویی خصوصی برای شناخت بهتر خود، کاهش نگرانی و تصمیم‌گیری‌های آگاهانه‌تر.</p>
+        </div>
+        <div class="approach-item">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="18" cy="20" r="8"/><circle cx="30" cy="20" r="8"/><path d="M8 40c1.5-8 5-12 10-12M40 40c-1.5-8-5-12-10-12"/></svg>
+          <h3>مشاوره‌ی زوج و خانواده</h3>
+          <p>بازسازی گفت‌وگو و صمیمیت میان زوج‌ها و اعضای خانواده در فضایی امن.</p>
+        </div>
+        <div class="approach-item">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="19" cy="24" r="10"/><circle cx="29" cy="24" r="10"/></svg>
+          <h3>مشاوره‌ی پیش از ازدواج</h3>
+          <p>آماده‌شدن برای زندگی مشترک با شناخت انتظارات و مهارت‌های ارتباطی.</p>
+        </div>
+        <div class="approach-item">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 26c4 0 4-10 8-10s4 18 8 18 4-18 8-18 4 10 8 10 4-6 4-6"/></svg>
+          <h3>کاهش اضطراب و استرس</h3>
+          <p>یادگیری تکنیک‌های آرام‌سازی و بازگرداندن تعادل به زندگی روزمره.</p>
+        </div>
+        <div class="approach-item">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M24 6l14 6v10c0 11-7 18-14 20-7-2-14-9-14-20V12z"/><path d="M18 24l4 4 8-9"/></svg>
+          <h3>مدیریت خشم و بحران هیجانی</h3>
+          <p>یافتن مسیرهایی سالم برای شناخت و ابراز احساسات شدید.</p>
+        </div>
+        <div class="approach-item">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M24 40V22"/><path d="M24 22c0-8-8-8-8-14 6 0 8 5 8 9 0-4 2-9 8-9 0 6-8 6-8 14z"/></svg>
+          <h3>مشاوره‌ی نوجوان</h3>
+          <p>همراهی نوجوانان در دوران تغییر، هویت‌یابی و ارتباط با خانواده.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTENT / PODCAST
+  ============================================================ -->
+  <section id="content">
+    <div class="wrap">
+      <div class="content-head">
+        <div class="section-head" data-reveal>
+          <svg class="arc-divider" viewBox="0 0 64 20" fill="none"><path d="M2 3c8 14 22 15 30 15s22-1 30-15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <h2>مطالب و پادکست‌ها</h2>
+          <p>گفت‌وگوهایی درباره‌ی ذهن، رابطه و آرامش؛ هر هفته یک قسمت تازه.</p>
+        </div>
+        <div class="tabs" role="tablist" id="tabs">
+          <button class="tab-btn active" data-filter="all">همه</button>
+          <button class="tab-btn" data-filter="podcast">پادکست</button>
+          <button class="tab-btn" data-filter="podcast">مقاله</button>
+
+        </div>
+      </div>
+
+      <div class="episode-list" id="episodeList"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CREDENTIALS
+  ============================================================ -->
+  <section id="credentials">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <svg class="arc-divider" viewBox="0 0 64 20" fill="none"><path d="M2 3c8 14 22 15 30 15s22-1 30-15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h2>رزومه‌ی علمی و مجوزها</h2>
+        <p>شفافیت درباره‌ی تحصیلات و مجوز فعالیت، بخشی از اعتماد میان ماست.</p>
+      </div>
+
+      <div class="credentials-grid">
+        <div class="cred-card thesis" data-reveal>
+          <span class="cred-label">پایان‌نامه‌ی ارشد</span>
+          <h3 class="fillme">[ارتباط نوموفوبیا با احساس تنهایی ودشواری تنظیم هیجان دردانش آموزان پسر]</h3>
+          <p class="cred-meta">مقطع کارشناسی ارشد<span class="fillme"></span> <span class="fillme"></span></p>
+          <a href="پایان نامه سعادتی.docx" class="cred-link">
+            مشاهده‌ی فایل پایان‌نامه
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 15V3M7 8l5-5 5 5M5 21h14"/></svg>
+          </a>
+        </div>
+
+        <div class="cred-card license" data-reveal>
+          <span class="cred-label">کد نظام روان‌شناسی و مشاوره</span>
+          <div class="code-chip" id="codeChip" title="برای کپی‌کردن کلیک کنید">
+            93739
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M4 16V6a2 2 0 0 1 2-2h10"/></svg>
+          </div>
+          <p class="note"></p>
+          <a href="#" class="cred-link"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <svg class="arc-divider" viewBox="0 0 64 20" fill="none"><path d="M2 3c8 14 22 15 30 15s22-1 30-15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h2>در تماس باشید</h2>
+        <p>برای دریافت نوبت مشاوره یا هر پرسشی، از راه‌های زیر با ما در ارتباط باشید.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <div class="contact-info-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 3a2 2 0 0 1-.5 2.1L8 10.1a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c1 .3 2 .5 3 .7a2 2 0 0 1 1.6 2z"/></svg>
+            <span>
+              <span class="label">شماره تماس</span>
+              <span class="value fillme" style="color:var(--gold-soft);">09179280711
+                -09219280711
+              </span>
+            </span>
+          </div>
+          <div class="contact-info-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+            <span>
+              <span class="label">ایمیل</span>
+              <span class="value fillme" style="color:var(--gold-soft);">saadatimohsen29@gmail.com</span>
+            </span>
+          </div>
+          <div class="contact-info-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>
+              <span class="label">آدرس مطب</span>
+              <span class="value fillme" style="color:var(--gold-soft);">آدرس:شیراز،کوی زهرا،بلوارآ یت الله حقیقت(ایثار شمالی)،کوچه۲،جنب افق کوروش</span>
+            </span>
+          </div>
+        </div>
+
+        <div>
+          <p class="social-title">ما را در شبکه‌های اجتماعی دنبال کنید</p>
+          <div class="social-row">
+            <!-- لینک تلگرام را اینجا جایگزین # کنید -->
+            <a href="@poorzal" class="social-btn" aria-label="تلگرام">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3L2 11l6 2.5M22 3l-4 18-8.5-6.5M22 3L9.5 14.5M8 13.5V19l3-3.2"/>poorzal</svg>
+            </a>
+            <!-- لینک واتساپ را اینجا جایگزین # کنید -->
+            <a href="#" class="social-btn" aria-label="واتساپ">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.4-4.2A8 8 0 1 1 9 18.5z"/><path d="M9 10.5c0 3 2.5 5.5 5.5 5.5.6 0 1-.4.9-1l-.3-1.2c-.1-.4-.5-.6-.9-.5l-1 .3a5 5 0 0 1-2.8-2.8l.3-1c.1-.4-.1-.8-.5-.9L9 8.6c-.6-.1-1 .3-1 .9z"/></svg>
+            </a>
+            <!-- لینک اینستاگرام را اینجا جایگزین # کنید -->
+            <a href="#" class="social-btn" aria-label="اینستاگرام">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+            </a>
+          </div>
+          <p class="social-note"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- mini player -->
+<div class="mini-player" id="miniPlayer">
+  <div class="mp-inner">
+    <button class="mp-toggle" id="mpToggle" aria-label="پخش/توقف">
+      <svg id="mpToggleIcon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+    </button>
+    <div class="mp-title" id="mpTitle">—</div>
+    <div class="mp-track" id="mpTrack"><div class="mp-progress" id="mpProgress"></div></div>
+    <div class="mp-time" id="mpTime">۰۰:۰۰ / ۰۰:۰۰</div>
+    <button class="mp-close" id="mpClose" aria-label="بستن">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+</div>
+
+<audio id="audioEl" preload="none"></audio>
+
+<footer>
+  <div class="wrap footer-row">
+    <div class="footer-brand">
+      <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="21" stroke="currentColor" stroke-width="1.6"/><path d="M14 27c3.2 5 8.6 8 10 8s6.8-3 10-8" stroke="var(--gold)" stroke-width="1.8" stroke-linecap="round"/></svg>
+      آکادمی و مرکز مشاوره تبسم
+    </div>
+    <div>© <span id="year"></span> تمامی حقوق محفوظ است.</div>
+    <div class="footer-social">
+      <a href="#" aria-label="تلگرام"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 3L2 11l6 2.5M22 3l-4 18-8.5-6.5M22 3L9.5 14.5"/></svg></a>
+      <a href="#" aria-label="واتساپ"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 20l1.4-4.2A8 8 0 1 1 9 18.5z"/></svg></a>
+      <a href="#" aria-label="اینستاگرام"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
